@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is website to introduce Yoojin Park">
+	<meta name="keywords" content="Software, Engineer, IT, Science, Yonsei, ELC">
+	<meta name="autohor" content="Yoojin Park">
+	<title>ELC@Yonsei</title>
+	<link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<!--<a href="index.html" class="logo">Embedded systems language & compilers lab</a> -->
+			<nav id="nav">
+				<a href="../index.html">Home</a>
+				<a href="../pages/people.html">People</a>
+				<a href="#"><div class="emphasize">Research</div></a>
+				<a href="../pages/projects.html">Projects</a>
+				<a href="../pages/publications.html">Publications</a>
+			</nav>
+		</div>
+	</header>
+	<!-- Banner -->
+	<section id="banner">
+		<h1><div class="emphasize">E</div>mbedded systems <div class="emphasize">L</div>anguage and <div class="emphasize">C</div>ompilers <div class="emphasize">LAB</div></h1>
+	</section>
+
+
+	<section id="one" class="wrapper">
+		<div class="inner">
+			<header>
+			<h3>Programming Language Implementations for Multi-core Architectures</h3>
+			</header>
+			<p>
+			The current shift from single core to multi-core architectures has severe impacts on the way we will develop software. Most existing software was written for sequential processors; this software legacy will not experience any performance increase from future computer systems, because it cannot harness the raw computing power of multiple cores. Developing software for parallel computers is demonstrably much harder than writing sequential code. Programmers get easily overwhelmed by communication, synchronization, scalability, efficiency and correctness considerations of parallel programs. 
+
+			Existing programming models do little to lower the complexity of software development for multi-core architectures. In this project we research ways how programming languages, run-time systems and compilers can contribute to the programmability of multi-core architectures.
+			</p>
+		</div>
+	</section>	
+	<section id="two" class="wrapper">
+		<div class="inner">
+			<header>
+			<h3>Virtual Execution Environments for Embedded Systems</h3>
+			</header>
+			<p>
+			Resource constraints are a major concern with the design, development, and deployment of embedded systems. Embedded systems are highly hardware-dependent and have little computational power. Mobile embedded systems such as mobile phones are further constrained by their limited battery capacity. Many of these systems are still programmed in assembly language because there is a lack of efficient programming environments.
+
+			To overcome or at least alleviate the restrictions, we develop a light-weight and versatile programming environment for the C programming language that offers mixed-mode execution, i.e., code is either executed on the CPU or on a virtual machine (VM). This mixed-mode execution environment combines the advantages of highly compressed bytecode with the speed of machine code.
+
+			With our programming environment we employ extensive static program analyzes to derive program properties that are needed to generate energy-efficient code for embedded systems architectures.
+
+			We tailor the virtual machine technology developed within this project to the needs of wireless sensor networks. This is joint work with the wireless sensor network initiative at the <a href="https://sydney.edu.au/engineering/about/school-of-computer-science.html">School of Information Technologies</a>, University of Sydney, Australia.
+
+			Recently we started to investigate energy-efficient implementation techniques for embedded systems virtual machines such as the Dalvik Virtual Machine that is used with Google's Android Operating System.
+			</p>
+		</div>
+	</section>	
+	<section id="three" class="wrapper">
+		<div class="inner">
+			<header>
+			<h3>Symbolic Analysis of Programs</h3>
+			</header>
+			<p>
+			Symbolic analysis is an advanced static program analysis technique. The analysis result is useful in compiler optimization, code generation, program verification, testing and debugging. It uses symbolic expressions to describe computations as algebraic formulae over a program's problem space. These symbolic expressions are manipulated and simplified by computer algebra systems (CAS). With nowadays computer performance and advances in symbolic computing, symbolic analysis is becoming tractable for the problem sizes of real-world applications.
+
+			The aim of this work is to develop an effective and unified symbolic analysis framework for parallelizing compilers and other software validation tools.
+			</p>
+		</div>
+	</section>		
+	<section id="four" class="wrapper">
+		<div class="inner">
+			<header>
+			<h3>Embedded Systems Compilation</h3>
+			</header>
+			<p>
+			General purpose microprocessors are too inefficient for the highly specialized computation- and control tasks required by embedded systems applications. As a result, we are facing an ever-increasing cornucopia of special-purpose hardware architectures. The shift from assembly language to high-level programming languages can only take place if compilers are able to generate code for idiosyncratic hardware architectures under optimization objectives such as small memory footprint and low power consumption.
+
+			Partitioned memory is a hardware idiosyncrasy that is attractive for its compact encoding of memory operands, which results in high code density and low memory footprints of applications. Ultra-low power architectures gate memory partitions to reduce leakage current. Our recent research involved the development of an optimization technique that minimizes the overhead induced by bank selection instructions of partitioned memory architectures. We have formulated bank selection as a discrete optimization problem. The optimal placement of bank selection instructions can be controlled by a variety of different objectives, such as runtime, low power, small code size or a combination of these parameters.
+
+			Programmable logic devices (PLDs) are the ultimate way of system specialization. SoCs that consist of various FPGAs and hard/soft cores can benefit greatly from smart compilation techniques that facilitate hardware/software partitioning, discover parallelism inherent in the computation, and determine loop bounds and data-path widths to allow for effective hardware synthesis.
+			</p>
+		</div>
+	</section>			
+
+
+	<footer id="footer">
+		<img class="footer_logo" src="../img/footer_logo.jpg">
+		<div class="footer_text">Yonsei University 50 Yonsei-ro, Seodaemun-gu, Seoul 03722, Republic of Korea</div>
+	</footer>
+</body>
+</html>

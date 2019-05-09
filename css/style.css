@@ -1,0 +1,257 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, b, u, i, center, dl, dt, dd, ol, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+@font-face { font-family: 'NanumGothic'; src: url(NanumFont_TTF_ALL/NanumGothic.ttf) format('truetype'); }
+
+
+/*****************************
+****header*****
+******************************/
+#header {
+	color: #d4e0ef;
+	cursor: default;
+	height: 3.25em;
+	left: 0;
+	line-height: 3.25em;
+	position: absolute;
+	text-align: right;
+	top: 2em;
+	width: 100%;
+	z-index: 10001;
+	font-family: NanumGothic;
+}
+
+	#header .inner {
+		margin: 0 auto;
+		position: relative;
+		font-family: NanumGothic;
+	}
+
+	#header .logo {
+		color: inherit;
+		display: inline-block;
+		height: inherit;
+		left: 0.75em;
+		line-height: inherit;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		text-decoration: none;
+		font-size: 1.2em;
+	}
+
+	#header a {
+	-moz-transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	display: inline-block;
+	padding: 0 0.75em;
+	color: inherit;
+	text-decoration: none;
+	font-size: 1.2em;
+	}
+
+	#header .emphasize{
+		color:white;
+		font-weight:bold;
+		font-size:1.5em;
+	}
+
+
+/*****************************
+****banner****
+*****************************/
+#banner {
+	padding: 12em 0 10em 0;
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	border-top: 0.5em solid #5385c1;
+}
+	#banner h1 {
+		font-size: 2.8em;
+		font-weight: 100;
+		color: white;
+		text-decoration: none;
+		line-height: 1em;
+		margin: 0 0 0 0;
+		padding: 0;
+		font-family: NanumGothic;
+	}
+
+	#banner .emphasize{
+		color:white;
+		font-weight:bold;
+		font-size:1.0em;
+		display:inline;
+	}
+
+
+
+
+
+/* Type */
+	body, input, select, textarea {
+		color: #9a9a9a;
+		font-family: "Raleway", Arial, Helvetica, sans-serif;
+		font-size: 13pt;
+		font-weight: 300;
+		line-height: 1.65;
+	}
+
+
+	a {
+		color: #5385c1;
+		text-decoration: underline;
+	}
+
+
+
+	p {
+		margin: 0 0 2em 0;
+		font-size:15pt;
+		margin-left: 1.5em;
+		line-height: 1.4em;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #5385c1;
+		font-weight: 300;
+		line-height: 1.5;
+		margin: 0 0 1em 0;
+	}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+	h2 {
+		font-size: 1.75em;
+		font-weight: 100;
+	}
+
+	h3 {
+		font-size: 1.35em;
+		margin-left: 1em;
+
+	}
+
+	h4 {
+		font-size: 1.1em;
+	}
+
+	h5 {
+		font-size: 0.9em;
+	}
+
+	h6 {
+		font-size: 0.7em;
+	}
+
+	sub {
+		font-size: 0.8em;
+		position: relative;
+		top: 0.5em;
+	}
+
+
+	.align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
+	}
+
+	.inner {
+		max-width: 75em;
+		margin: 0 auto;
+	}
+
+	.left {
+		float:left;
+		padding: 0 20px 0px 0;
+		font-size:0.1em;
+	}
+
+/* Section/Article 세로 배열 배치*/
+section.wrapper, article.wrapper {
+	padding: 4em 0;
+	padding-bottom: 1em;
+}
+
+
+/* Button */
+	button,
+	.button {
+		display: inline-block;
+		font-weight: 600;
+		height: 2.85em;
+		line-height: 2.95em;
+		padding: 0 1.5em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		margin-left: 1.5em;
+
+	}
+
+		button.special,
+		.button.special {
+			background-color: #5385c1;
+			color: #ffffff !important;
+		}
+
+
+/* Image */
+	.image {
+		border-radius: 0;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+			.image.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+/*****************************
+****footer****
+*****************************/
+#footer {
+  margin-top: 50px;
+  background-color: white;
+  text-align: center
+}
+	.footer_logo {
+		width:205px;
+		height:90px;
+	}
+
+
+	.footer_text {
+
+		line-height: 50px;
+		vertical-align: top;
+		
+	}
+
