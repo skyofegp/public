@@ -124,14 +124,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 		margin: 0 0 2em 0;
 		font-size:15pt;
 		margin-left: 1.5em;
-		line-height: 1.4em;
+		/*line-height: 1.4em;*/
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #5385c1;
 		font-weight: 300;
 		line-height: 1.5;
-		margin: 0 0 1em 0;
+		/*margin-top:1.4em;
+		/*margin: 0 0 1em 0;*/
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
