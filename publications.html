@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script type="text/javascript" src="javascript/includehtml.js"></script>
+	<script type="text/javascript" src="javascript/functions.js"></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>ELC@Yonsei</title>
@@ -24,40 +24,13 @@
 	<section id="banner">
 		<h1><div class="emphasize">E</div>mbedded systems <div class="emphasize">L</div>anguage and <div class="emphasize">C</div>ompilers <div class="emphasize">LAB</div></h1>
 	</section>
-
-
 	<section id="one" class="wrapper">
 		<div class="inner">
 			<header>
-			<h2>Books</h2>
-			</header>
-			<h3>[B01] Informatik Grundlagen(Computer Science Fundamentals).</h3>			
-			<p><a href="https://www.springer.com/de/book/9783211277546"><img src="img/infobuch.jpg" width="105px" height="125px" alt="Headshot photo" class="left"></a>
-				<a href="https://www.auto.tuwien.ac.at/index.php/projectsites/185-johann-blieberger">J. Blieberger</a>, B. Burgstaller and G.H. Schildt.<br>
-				Springers Lehrbücher der Informatik.<br>
-				Springer, Vienna,<br> 4th edition 2002, 5th edition 2005.<br><br>
-			<h3>[B02] Symbolic Analysis: an Algebra-based Approach. </h3>			
-			<p><a href="https://www.amazon.com/gp/product/3836481421/ref=olp_product_details?ie"><img src="img/pub_symbolic_analysis.jpg" width="105px" height="125px" alt="Headshot photo" class="left"></a>
-				B. Burgstaller, B. Scholz and <a href="https://www.auto.tuwien.ac.at/index.php/projectsites/185-johann-blieberger">J. Blieberger</a>.<br>VDM, Saarbrüecken, April 2008.<br>
-		</div>
-	</section>
-	<br><br>
-
-	<section id="two" class="wrapper">
-		<div class="inner">
-			<header>
-			<h2>Book Chapter</h2>
-			</header>
-			<h3>[BC01] Program Assemblers. </h3>
-			<p>B. Burgstaller and B. Scholz.<br>In Wiley Encyclopedia of Computer Science and Engineering, pp. 2243-2252, Benjamin W. Wah (editor), John Wiley & Sons, Inc., 2008.</p>
-		</div>
-	</section>
-
-	<section id="three" class="wrapper">
-		<div class="inner">
-			<header>
 			<h2>Journals</h2>
+			<button class="button special" onclick="myShow('myDIV0')">Show</button> <button class="button special" onclick="myHide('myDIV0')">Hide</button>
 			</header>
+			<div id="myDIV0" style="display:none">
 			<h3>[J09]
 			Regression Prefetcher with Preprocessing for DRAM-PCM Hybrid Main Memory.</h3>
 			<p>Ji-Tae Yun, Su-Kyung Yoon, Jeong-Geun Kim, Bernd Burgstaller and Shin-Dug Kim.<br>
@@ -103,16 +76,18 @@
 			<p>B. Scholz, B. Burgstaller and J. Xue.<br>
 			Transactions on Embedded Computing Systems (TECS), Vol. 7, Number 2, ACM Press, 2008, SCI-E.<br>
 			[DOI] [pdf, ACM author-ized]</p>			
+			</div>
 		</div>
 	</section>
 
 
-	<section id="five" class="wrapper">
+	<section id="two" class="wrapper">
 		<div class="inner">
 			<header>
 			<h2>International Conferences</h2>
+			<button class="button special" onclick="myShow('myDIV1')">Show</button> <button class="button special" onclick="myHide('myDIV1')">Hide</button>
 			</header>
-
+			<div id="myDIV1" style="display:none">
 			<h3>[A34]
 			Safe Non-blocking Synchronization in Ada2x.</h3> 
 			<p><a href="https://www.auto.tuwien.ac.at/index.php/projectsites/185-johann-blieberger">Johann Blieberger</a> and Bernd Burgstaller.<br> 
@@ -175,7 +150,7 @@
 			Dynamic Partitioning-based JPEG Decompression on Heterogeneous Multicore Architectures.</h3> 
 			<p>Wasuwee Sodsong, Jingun Hong, Seongwook Chung, Yeongkyu Lim, Shin-Dug Kim and Bernd Burgstaller.<br> 
 			In Proc. of the 2014 International Workshop on Programming Models and Applications for Multicores and Manycores, PMAM 2014, ACM, Orlando, February 2014.<br>
-			[pdf, ACM author-ized]
+			[pdf, ACM author-ized]</p>
 
 			<h3>[A23]
 			Parallel from the Beginning: The Case for Multicore Programming in the Computer Science Undergraduate Curriculum.</h3> 
@@ -342,8 +317,37 @@
 			Lecture Notes in Computer Science (LNCS), Vol. 1088, pp. 330-341, Springer Press,<br>
 			Montreux, Switzerland, June 1996.<br>
 			<a href="https://elc.yonsei.ac.kr/publications/ae96.pdf">[pdf]</a></p>
+			</div>
 		</div>
 	</section>	
+
+	<section id="three" class="wrapper">
+		<div class="inner">
+			<header>
+			<h2>Books</h2>
+			</header>
+			<h3>[B01] Informatik Grundlagen(Computer Science Fundamentals).</h3>			
+			<p><a href="https://www.springer.com/de/book/9783211277546"><img src="img/infobuch.jpg" width="105px" height="125px" alt="Headshot photo" class="left"></a>
+				<a href="https://www.auto.tuwien.ac.at/index.php/projectsites/185-johann-blieberger">J. Blieberger</a>, B. Burgstaller and G.H. Schildt.<br>
+				Springers Lehrbücher der Informatik.<br>
+				Springer, Vienna,<br> 4th edition 2002, 5th edition 2005.<br><br>
+			<h3>[B02] Symbolic Analysis: an Algebra-based Approach. </h3>			
+			<p><a href="https://www.amazon.com/gp/product/3836481421/ref=olp_product_details?ie"><img src="img/pub_symbolic_analysis.jpg" width="105px" height="125px" alt="Headshot photo" class="left"></a>
+				B. Burgstaller, B. Scholz and <a href="https://www.auto.tuwien.ac.at/index.php/projectsites/185-johann-blieberger">J. Blieberger</a>.<br>VDM, Saarbrüecken, April 2008.<br>
+		</div>
+	</section>
+	<br><br>
+
+	<section id="two" class="wrapper">
+		<div class="inner">
+			<header>
+			<h2>Book Chapter</h2>
+			</header>
+			<h3>[BC01] Program Assemblers. </h3>
+			<p>B. Burgstaller and B. Scholz.<br>In Wiley Encyclopedia of Computer Science and Engineering, pp. 2243-2252, Benjamin W. Wah (editor), John Wiley & Sons, Inc., 2008.</p>
+		</div>
+	</section>
+
 
 	<section id="five" class="wrapper">
 		<div class="inner">

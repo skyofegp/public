@@ -193,6 +193,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 		font-size:0.1em;
 	}
 
+	.user-menu{
+  position:absolute;
+  width:400px;
+  height:400px;
+  
+	}
+
 /* Section/Article 세로 배열 배치*/
 section.wrapper, article.wrapper {
 	padding: 4em 0;
@@ -203,6 +210,14 @@ section.wrapper, article.wrapper {
 /* Button */
 	button,
 	.button {
+		margin-left: 1.5em;
+	}
+
+	button.special,
+	.button.special {
+		background-color: #5385c1;
+		color: #ffffff !important;
+		border:none;
 		display: inline-block;
 		font-weight: 600;
 		height: 2.85em;
@@ -211,15 +226,8 @@ section.wrapper, article.wrapper {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
-		margin-left: 1.5em;
-
+		font-size:16px;
 	}
-
-		button.special,
-		.button.special {
-			background-color: #5385c1;
-			color: #ffffff !important;
-		}
 
 
 /* Image */

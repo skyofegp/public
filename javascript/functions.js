@@ -26,4 +26,14 @@ function includeHTML() {
   }
 }
 
+function myShow(a) {
+  var x = document.getElementById(arguments[0]);
+    x.style.display = "block";
+}
+
+function myHide(a) {
+  var x = document.getElementById(arguments[0]);
+    x.style.display = "none";
+}
+
 
