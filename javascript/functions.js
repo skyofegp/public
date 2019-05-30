@@ -26,14 +26,17 @@ function includeHTML() {
   }
 }
 
-function myShow(a) {
+function myToggle(a, button) {
   var x = document.getElementById(arguments[0]);
+  var elem = document.getElementById(arguments[1]);
+  if(elem.value=="Show") { 
+    elem.value="Hide";
     x.style.display = "block";
-}
-
-function myHide(a) {
-  var x = document.getElementById(arguments[0]);
+  }
+  else {
+    elem.value="Show";
     x.style.display = "none";
+  }
 }
 
 
