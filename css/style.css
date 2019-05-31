@@ -30,23 +30,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 }
 
 	#header .inner {
-		margin: 0 auto;
-		position: relative;
+		margin-right:25px;
 		font-family: NanumGothic;
 	}
 
 	#header .logo {
-		color: inherit;
+		color: white;
 		display: inline-block;
 		height: inherit;
-		left: 0.75em;
+		left: 25px;
 		line-height: inherit;
-		margin: 0;
-		padding: 0;
 		position: absolute;
 		top: 0;
 		text-decoration: none;
-		font-size: 1.2em;
+		font-size: 1.5em;
+		font-weight:bold;
 	}
 
 	#header a {
