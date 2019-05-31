@@ -15,6 +15,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 /*****************************
 ****header*****
 ******************************/
+#nav_menu ul li {
+	display:inline;
+	border-left: 3px solid #c0c0c0;
+}
+
+#nav_menu ul li:first-child {
+	border-left: none;
+}
+
 #header {
 	color: #d4e0ef;
 	cursor: default;
@@ -25,26 +34,25 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 	text-align: right;
 	top: 2em;
 	width: 100%;
-	z-index: 10001;
 	font-family: NanumGothic;
-}
+	}
+
 
 	#header .inner {
-		margin-right:25px;
-		font-family: NanumGothic;
+		margin-right:50px;
+		font-size: 1.0em;
 	}
 
 	#header .logo {
 		color: white;
-		display: inline-block;
 		height: inherit;
-		left: 25px;
+		left: 15px;
 		line-height: inherit;
 		position: absolute;
 		top: 0;
 		text-decoration: none;
-		font-size: 1.5em;
 		font-weight:bold;
+		font-size:1.3em;
 	}
 
 	#header a {
@@ -62,7 +70,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 	#header .emphasize{
 		color:white;
 		font-weight:bold;
-		font-size:1.5em;
+		font-size:1.2em;
 	}
 
 
@@ -82,7 +90,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 	#banner h1 {
 		font-size: 2.8em;
 		font-weight: 100;
-		color: white;
+		color: #c0c0c0;
 		text-decoration: none;
 		line-height: 1em;
 		margin: 0 0 0 0;
