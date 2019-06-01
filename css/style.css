@@ -29,7 +29,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 	cursor: default;
 	height: 3.25em;
 	left: 0;
-	line-height: 3.25em;
+	line-height: 2em;
 	position: absolute;
 	text-align: right;
 	top: 2em;
@@ -47,12 +47,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 		color: white;
 		height: inherit;
 		left: 15px;
-		line-height: inherit;
+		line-height: 2px;
 		position: absolute;
 		top: 0;
 		text-decoration: none;
 		font-weight:bold;
 		font-size:1.3em;
+		font-weight:bold;
 	}
 
 	#header a {
