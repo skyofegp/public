@@ -79,19 +79,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 ****banner****
 *****************************/
 #banner {
-	padding: 12em 0 10em 0;
+	padding: 10em 0 10em 0;
 	background-image: url(../img/banner.jpg);
 	background-size: cover;
-	background-position: top;
+	background-position: bottom;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	text-align: center;
-	border-top: 0.5em solid #5385c1;
+	border-top: 0em solid #5385c1;
 }
 	#banner h1 {
-		font-size: 2.8em;
-		font-weight: 100;
-		color: #c0c0c0;
+		font-size: 2.5em;
+		font-weight: 10;
+		color: #ecebeb;
 		text-decoration: none;
 		line-height: 1em;
 		margin: 0 0 0 0;
