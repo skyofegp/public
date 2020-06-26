@@ -51,9 +51,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 		position: absolute;
 		top: 0;
 		text-decoration: none;
-		font-weight:bold;
+	
 		font-size:1.3em;
-		font-weight:bold;
+	
 	}
 
 	#header a {
@@ -124,13 +124,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 
 	p {
 		margin: 0 0 2em 0;
-		font-size:12pt;
+		font-size:14pt;
 		margin-left: 1.5em;
 		line-height: 1.3em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #5385c1;
+		color: #80aadd;
 		font-weight: 300;
 		line-height: 1.5;
 		/*margin-top:1.4em;*/
@@ -206,7 +206,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 /* Section/Article 세로 배열 배치*/
 section.wrapper, article.wrapper {
 	padding: 4em 0;
-	padding-bottom: 0.5em;
+	padding-bottom: 0em;
 }
 
 
