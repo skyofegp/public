@@ -22,9 +22,33 @@
 	<!-- one -->
 	<section id="one" class="wrapper">
 		<div class="inner">
-
+			<header>
+			<h2>Player</h2>
+			</header>
+			<p>
+				This is my first small step using C# and unity!
+      </p>
+      <link rel="shortcut icon" href="TemplateData/favicon.ico">
+      <link rel="shortcut icon" href="TemplateData/favicon.ico">
+      <link rel="stylesheet" href="TemplateData/style.css">
+      <script src="TemplateData/UnityProgress.js"></script>
+      <script src="Build/UnityLoader.js"></script>
+      <script>
+        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/player_html5.json", {onProgress: UnityProgress});
+      </script>
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <h3>
+        Bullet : SPACE, Move : UP, DOWN, RIGHT, LEFT
+      </h3>
 		</div>
-	</section>
+  </section>
+  
+  <div w3-include-html="common/footer.html"></div>
+	<script>
+	includeHTML();
+  </script>
+  
+<!--
   <div class="webgl-content">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
@@ -38,12 +62,7 @@
     <h3>
       Bullet : SPACE, Move : UP, DOWN, RIGHT, LEFT
     </h3>
-    <div class="footer">
-      <div class="webgl-logo"></div>
-      <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-      <div class="title">player</div>
-    </div>
-  </div>
+  </div> -->
 </body>
 </html>
 
