@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="../../javascript/functions.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>C# with unity</title>
+	<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+	<!-- Header--> 
+	<header id="header">
+		<div class="inner">
+			<a href="../../index.html" class="logo">Yoopar's home</a>
+		</div>
+	</header> 
+	<!-- Banner -->
+	<section id="banner">
+	<h1>Listen more, Talk less, be Decisive when the time comes</div><span style = " font-size:0.5em">  -Satya Nadella</span></h1>
+	</section>
+
+	<!-- one -->
+	<section id="one" class="wrapper">
+		<div class="inner">
+
+		</div>
+	</section>
+  <div class="webgl-content">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/player_html5.json", {onProgress: UnityProgress});
+    </script>
+    <div id="unityContainer" style="width: 960px; height: 600px"></div>
+    <h3>
+      Bullet : SPACE, Move : UP, DOWN, RIGHT, LEFT
+    </h3>
+    <div class="footer">
+      <div class="webgl-logo"></div>
+      <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+      <div class="title">player</div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
